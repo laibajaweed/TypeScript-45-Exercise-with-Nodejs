@@ -1,3 +1,4 @@
+\
 //ex.15
 let guest_list : string [] = [`mariyam`,`farhan`,`noorfatima`,`faiza`];
 let not_persent : string =`farhan`;
@@ -18,7 +19,7 @@ for(let i=0; i<guest_list.length; i++ ){
     let removeguest =guest_list.pop();
     console.log(`sorry ${removeguest} I cant invite you to dinner `);
    }
-   console.log("invitation last 2 guest ");
+   console.log("invitation last 2 guest "); 
    guest_list.forEach (lasttwo => console.log(`luckly ${lasttwo}, you are still imvited to dinner`));
 
 guest_list.pop();
